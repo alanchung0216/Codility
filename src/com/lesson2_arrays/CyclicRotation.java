@@ -10,23 +10,27 @@ public class CyclicRotation {
 	once finished one iteration then put the extra to A[0] the first position.
 	do this k times until it’s done
 	the cost is O(n x k);
-
-	class Solution {
+*/
+	
 	    public int[] solution(int[] A, int K) {
 	        // write your code in Java SE 8
-	        
+	    	//System.out.println(A.length);
 	        for (int i=0; i < K; i++) {
+	        	//System.out.println(i);
+	        	//System.out.println(A.length);
 	            int extra=A[A.length-1];
-	            for (int j=A.length-1; j<1; j--) {
-	                //if (j==A.length) extra=A[j];
-	                A[j]=A[j-1];
+	            //System.out.println(extra);
+	            for (int j=1, m=A.length-1; j<A.length; j++, m--) {
+	            	//System.out.println(j);
+	                A[m]=A[m-1];
+	                //System.out.println(A[j]);
 	            }
 	            A[0]=extra;
 	        }
 	        return A;
 	    }
-	}
-
+	
+/*
 	Another way to solve it
 	this approach will reverse array three time
 	and cost is only O(n)
@@ -41,7 +45,7 @@ public class CyclicRotation {
 	final reverse the whole array 0 to length-1
 	3412
 	*/
-
+/*
     public int[] solution(int[] A, int K) {
         // write your code in Java SE 8
         reverse(A, 0, K-1);
@@ -59,10 +63,17 @@ public class CyclicRotation {
         for (int i=start; i <= (start+end)/2; i++)
             swap(Y, i, (start+end)-i);
     }
-
+*/
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		int[] testArray = {3, 8, 9, 7, 6};
+		CyclicRotation cr = new CyclicRotation();
+		int[] ret = cr.solution(testArray, 3);
+		//System.out.println("ret");
+		for (int i=0; i<ret.length; i++){
+			System.out.println(ret[i]);
+		}
+		
 	}
 
 }
