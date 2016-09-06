@@ -3,7 +3,7 @@ package com.lesson6_Sort;
 import java.util.*;
 public class MaxPeoductOfThree {
 /*
-	Lesson 6-3MaxProductOfThree
+	Lesson 6-3 MaxProductOfThree
 	Maximize A[P] * A[Q] * A[R] for any triplet (P, Q, R).
 
 	this could be very easy if all number are positive.

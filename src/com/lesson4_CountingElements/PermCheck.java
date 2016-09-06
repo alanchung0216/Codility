@@ -2,7 +2,7 @@ package com.lesson4_CountingElements;
 
 public class PermCheck {
 /*
-	Lesson 4-2  OK  PermCheck
+	Lesson 4-1  OK  PermCheck
 	Check whether array A is a permutation.
 
 	A permutation is a sequence containing each element from 1 to N once, and only once.

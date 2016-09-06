@@ -3,7 +3,7 @@ import java.util.*;
 
 public class Distinct {
 /*
-	Lesson 6-2Distinct
+	Lesson 6-1 Distinct
 
 	Compute number of distinct values in an array.
 

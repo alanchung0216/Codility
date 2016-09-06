@@ -2,7 +2,7 @@ package com.lesson4_CountingElements;
 
 public class MissingInteger {
 /*
-	Lesson 4-3MissingInteger
+	Lesson 4-2 MissingInteger
 	Find the minimal positive integer not occurring in a given sequence.
 
 	the keyword here is “sequence” means 1,2,3,…
@@ -15,12 +15,12 @@ public class MissingInteger {
 
     public int solution(int[] A) {
         // the content of Array should be within size of A.length.
-        int[] pos = new int[A.length]; 
+        int[] pos = new int[A.length]; //pos is count array
         //System.out.println("length " + A.length);
         int ret=0;
         for (int i=0; i<A.length; i++) {
             if ((A[i] > 0 ) && (A[i] <= A.length)) {//<= is the key
-                pos[A[i]-1] += 1;
+                pos[A[i]-1] += 1; // if A[i]=4 the pos index should be 3
                 //System.out.println("pos " + A[i] + " " + pos[A[i]-1]);
             }
         }

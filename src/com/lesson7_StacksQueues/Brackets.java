@@ -3,7 +3,7 @@ package com.lesson7_StacksQueues;
 import java.util.*;
 public class Brackets {
 /*
-	Lesson 7 -1Brackets
+	Lesson 7 -2 Brackets
 	Determine whether a given string of parentheses is properly nested.
 
 	This solution could be solved using stack.

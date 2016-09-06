@@ -10,6 +10,11 @@ public class CyclicRotation {
 	once finished one iteration then put the extra to A[0] the first position.
 	do this k times until it’s done
 	the cost is O(n x k);
+	
+	For example, given array A = [3, 8, 9, 7, 6] 
+	and K = 3, the function should return [9, 7, 6, 3, 8].
+
+
 */
 	
 	    public int[] solution(int[] A, int K) {

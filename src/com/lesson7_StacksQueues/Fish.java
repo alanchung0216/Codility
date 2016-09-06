@@ -3,7 +3,7 @@ import java.util.*;
 
 public class Fish {
 /*
-	Lesson 7-2Fish
+	Lesson 7-3 Fish
 	N voracious fish are moving along a river. Calculate how many fish are alive.
 
 	Two arrays are give A, and B.

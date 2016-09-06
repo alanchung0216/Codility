@@ -3,7 +3,7 @@ import java.util.*;
 
 public class Triangle {
 /*
-	Lesson 6 - 1Triangle
+	Lesson 6 - 2 Triangle
 
 	Determine whether a triangle can be built from a given set of edges.
 	this section introduce sort.

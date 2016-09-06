@@ -3,7 +3,7 @@ import java.util.*;
 
 public class FrogRiverOne {
 /*
-	Lession 4-1FrogRiverOne
+	Lession 4-3 FrogRiverOne
 	Find the earliest time when a frog can jump to the other side of a river.
 
 	this section introduce Count array. Count array is powerful if you want to count
